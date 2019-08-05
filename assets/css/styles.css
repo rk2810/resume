@@ -8,8 +8,8 @@
 */
 body {
   font-family: 'Lato', arial, sans-serif;
-  color: #434343;
-  background: #DAE3E7;
+  color: #ffff;
+  background: #090A0A;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,11 +18,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #778492;
+  color: #ffff;
 }
 
 a {
-  color: #3AAA64;
+  color: #E40C2B;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -60,8 +60,8 @@ a:focus {
 }
 
 a.btn-cta-primary, .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #E40C2B;
+  border: 1px solid #E40C2B;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -74,8 +74,8 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 }
 
 a.btn-cta-secondary, .btn-cta-secondary {
-  background: #479FC8;
-  border: 1px solid #479FC8;
+  background: #E40C2B;
+  border: 1px solid #E40C2B;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -106,8 +106,8 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 }
 
 a.dotted-link {
-  border-bottom: 1px dotted #778492;
-  color: #778492;
+  border-bottom: 1px dotted #ffffff;
+  color: #ffffff;
 }
 
 a.dotted-link:hover {
@@ -118,8 +118,8 @@ a.dotted-link:hover {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  background: #484848;
+  border-top: 10px solid #ffffff;
 }
 
 .header .btn {
@@ -132,14 +132,14 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .name {
-  color: #49515a;
+  color: #E40C2B;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 
 .header .profile-content .desc {
-  color: #778492;
+  color: #ffffff;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -165,7 +165,7 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .social a:hover {
-  background: #778492;
+  background: #ffffff;
 }
 
 .header .profile-content .social a .svg-inline--fa {
@@ -184,14 +184,14 @@ a.dotted-link:hover {
 }
 
 .section .section-inner {
-  background: #fff;
+  background: #484848;
   padding: 30px;
 }
 
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #ffffff;
   font-size: 24px;
 }
 
@@ -219,7 +219,7 @@ a.dotted-link:hover {
 }
 
 .latest .item .title a {
-  color: #778492;
+  color: #ffffff;
 }
 
 .latest .item .title a:hover {
@@ -248,7 +248,7 @@ a.dotted-link:hover {
 
 .latest .featured .summary {
   margin-bottom: 30px;
-  color: #778492;
+  color: #ffffff;
 }
 
 .latest .featured img {
@@ -290,7 +290,7 @@ a.dotted-link:hover {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  background-color: #479FC8;
+  background-color: #E40C2B;
   -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -327,7 +327,7 @@ a.dotted-link:hover {
 }
 
 .projects .item .title a {
-  color: #778492;
+  color: #ffffff;
 }
 
 .projects .item .title a:hover {
@@ -347,12 +347,12 @@ a.dotted-link:hover {
 }
 
 .experience .item .title .place {
-  color: #999;
+  color: #fff;
   font-weight: normal;
 }
 
 .experience .item .title .place a {
-  color: #999;
+  color: #fff;
 }
 
 .experience .item .title .place a:hover {
@@ -360,7 +360,7 @@ a.dotted-link:hover {
 }
 
 .experience .item .title .year {
-  color: #999;
+  color: #fff;
   font-weight: normal;
 }
 
@@ -492,7 +492,7 @@ a.dotted-link:hover {
 }
 
 .testimonials .item .source .title {
-  color: #999;
+  color: #fff;
 }
 
 /* Education section */
@@ -512,7 +512,7 @@ a.dotted-link:hover {
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
   font-size: 13px;
-  color: #999;
+  color: #fff;
   font-weight: 600;
   padding-left: 25px;
 }
@@ -528,11 +528,11 @@ a.dotted-link:hover {
 }
 
 .languages .item .title {
-  color: #778492;
+  color: #ffffff;
 }
 
 .languages .item .level {
-  color: #999;
+  color: #fff;
 }
 
 .languages .item:last-child {
@@ -554,7 +554,7 @@ a.dotted-link:hover {
 }
 
 .blog .item .title a {
-  color: #778492;
+  color: #ffffff;
 }
 
 .blog .item .title a:hover {
@@ -579,7 +579,7 @@ a.dotted-link:hover {
 }
 
 .list ul li a {
-  color: #778492;
+  color: #ffffff;
 }
 
 .list ul li a:hover {
@@ -598,7 +598,7 @@ a.dotted-link:hover {
 }
 
 .credits ul li a {
-  color: #778492;
+  color: #ffffff;
 }
 
 .credits ul li a .svg-inline--fa {
@@ -615,7 +615,7 @@ a.dotted-link:hover {
 
 .aside .subheading {
   font-size: 18px;
-  color: #545e69;
+  color: #ffffff;
 }
 
 /* ======= Footer ======= */
